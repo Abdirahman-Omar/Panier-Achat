@@ -1,8 +1,10 @@
-export default function Entete(props){
-   
+import './Pied2Page.css';
+
+export default function Pied2Page(props){
+    const annee = (new Date()).getFullYear();
     return(
         <footer>
-      &copy; 2021 - TIM
+      &copy; {annee}
     </footer>
     );
 }
