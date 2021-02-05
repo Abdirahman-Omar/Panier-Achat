@@ -1,4 +1,4 @@
-import './ListeProduits.css';
+import './ListeProduits.scss';
 import Produit from './Produit';
 import tabProduits from './data/produits.json'
 
@@ -12,8 +12,6 @@ import tabProduits from './data/produits.json'
                        <Produit id={prd.id} nom={prd.nom} prix={prd.prix} />
                     )
                  }
-
-                 {/* <Produit nom="T-Shirt à col rond" prix="13.99" id="prd0001"/> */}
                 
              </ul>
          </div>
