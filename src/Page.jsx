@@ -14,6 +14,8 @@ export default function Page() {
 
   const etatPanier = useState({});
 
+   
+
   return (
     <div className="Page">
       <Entete etatPanier={etatPanier} />
