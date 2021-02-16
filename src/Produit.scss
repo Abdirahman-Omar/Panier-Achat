@@ -1,4 +1,4 @@
-.Produit{
+.Produit {
     width: 250px;
     height: 480px;
     margin: 10px;
@@ -8,24 +8,24 @@
     border: 1px solid #555;
     overflow: hidden;
     text-align: center;
-
-    img{
-        width: 100%;
+    box-shadow: 1px 1px 10px 2px rgba($color: #000000, $alpha: 0.5);
+  
+    img {
+      width: 100%;
     }
-
-    .info{
-        font-size: 0.8em;
-        line-height: 1.3em;
-
-        h3{
-            margin: 10px;
-            height: 30px;
-            font-weight: 500;
-        }
-
-        .Prix{
-            font-weight: 500;
-        }
+  
+    .info {
+      font-size: 0.8em;
+      line-height: 1.3em;
+  
+      h3 {
+        margin: 10px;
+        height: 30px;
+        font-weight: 500;
+      }
+  
+      .prix {
+        font-weight: 500;
+      }
     }
-}
-
+  }
