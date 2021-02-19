@@ -1,8 +1,9 @@
-import "./Entete.scss";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import Badge from "@material-ui/core/Badge";
-import SommairePanier from "./SommairePanier";
-import { useState } from "react";
+import './Entete.scss';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import Badge from '@material-ui/core/Badge';
+import SommairePanier from './SommairePanier';
+import { useState } from 'react';
+import {Link} from 'react-router-dom';
 
 export default function Entete(props) {
   // const etatCacherSommairePanier = useState(true);
@@ -42,11 +43,11 @@ export default function Entete(props) {
 
   return (
     <header className="Entete"> 
-      <div>Logo</div>
+      <div><Link to="/">Logo</Link></div>
       <ul className="navPrincipale">
-        <li>Produits</li>
-        <li>A propos de nous</li>
-        <li>Contactez-nous</li>
+        <li><Link to="/nos-produits">Produits</Link></li>
+        <li><Link to="/apropos-de-magasin">A propos de nous</Link></li>
+        <li><Link to="/contact">Contactez-nous</Link></li>
       </ul>
       <ul className="navUtil">
         <li>
